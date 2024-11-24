@@ -6,12 +6,14 @@ public class CharacterInputController : MonoBehaviour
 {
     private PlayerAction _playerAction;
     public float speed=2f;
+    public Animator animator;
 
 
     private void Awake()
     {
         _playerAction = new PlayerAction();
         _playerAction.Enable();
+        animator = GetComponentInChildren<Animator>();
     }
 
     private void OnEnable()
@@ -41,7 +43,16 @@ public class CharacterInputController : MonoBehaviour
     private void CharacterMove(Vector2 directon)
     {
         if (directon.x != 0 || directon.y != 0)
-            GetComponentInChildren<Transform>().position += new Vector3(-directon.y,0, directon.x) *speed;
+        {
+            Vector3 real = new Vector3(-directon.y, 0, directon.x);
+            GetComponentInChildren<Transform>().position += real* speed;
+            animator.StopPlayback();
+        }
+        else
+        {
+            
+        }
+           
        
     }
 }

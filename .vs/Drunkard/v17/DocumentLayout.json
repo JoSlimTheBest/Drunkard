@@ -1,9 +1,9 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\GitRepositor\\Drunkard\\",
+  "WorkspaceRootPath": "C:\\GitGamesDevelop\\Drunkard\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{2F38F2A0-C96D-D31C-83F4-41E7B8E31291}|Assembly-CSharp.csproj|c:\\gitrepositor\\drunkard\\assets\\scripts\\movementscript\\characterinputcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{2F38F2A0-C96D-D31C-83F4-41E7B8E31291}|Assembly-CSharp.csproj|c:\\gitgamesdevelop\\drunkard\\assets\\scripts\\movementscript\\characterinputcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{2F38F2A0-C96D-D31C-83F4-41E7B8E31291}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\movementscript\\characterinputcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
@@ -20,11 +20,11 @@
               "$type": "Document",
               "DocumentIndex": 0,
               "Title": "CharacterInputController.cs",
-              "DocumentMoniker": "C:\\GitRepositor\\Drunkard\\Assets\\Scripts\\MovementScript\\CharacterInputController.cs",
+              "DocumentMoniker": "C:\\GitGamesDevelop\\Drunkard\\Assets\\Scripts\\MovementScript\\CharacterInputController.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\MovementScript\\CharacterInputController.cs",
-              "ToolTip": "C:\\GitRepositor\\Drunkard\\Assets\\Scripts\\MovementScript\\CharacterInputController.cs",
+              "ToolTip": "C:\\GitGamesDevelop\\Drunkard\\Assets\\Scripts\\MovementScript\\CharacterInputController.cs",
               "RelativeToolTip": "Assets\\Scripts\\MovementScript\\CharacterInputController.cs",
-              "ViewState": "AgIAAA0AAAAAAAAAAAAgwCsAAABJAAAAAAAAAA==",
+              "ViewState": "AQIAABQAAAAAAAAAAAAAADAAAAAkAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-11-24T06:08:59.553Z",
               "EditorCaption": ""
