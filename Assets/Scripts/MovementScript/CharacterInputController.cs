@@ -1,19 +1,21 @@
 using System.Collections;
 using System.Collections.Generic;
+using TMPro;
 using UnityEngine;
 
 public class CharacterInputController : MonoBehaviour
 {
     private PlayerAction _playerAction;
     public float speed=2f;
-    public Animator animator;
+    public Animator _animator;
+   
 
 
     private void Awake()
     {
         _playerAction = new PlayerAction();
         _playerAction.Enable();
-        animator = GetComponentInChildren<Animator>();
+        _animator = GetComponent<Animator>();
     }
 
     private void OnEnable()
@@ -40,19 +42,38 @@ public class CharacterInputController : MonoBehaviour
     }
 
 
-    private void CharacterMove(Vector2 directon)
+    private void CharacterMove(Vector2 direction)
     {
-        if (directon.x != 0 || directon.y != 0)
+        if (direction.x != 0 || direction.y != 0)
         {
-            Vector3 real = new Vector3(-directon.y, 0, directon.x);
-            GetComponentInChildren<Transform>().position += real* speed;
-            animator.StopPlayback();
+           
+
+        }
+
+        if (direction.x != 0 || direction.y != 0)
+        {
+
+            Vector3 real = new Vector3(-direction.y, 0, direction.x);
+            GetComponent<Transform>().position += real * speed;
+            // Преобразование направления из 2D в 3D
+            Vector3 movementDirection = new Vector3(-direction.y, 0, direction.x);
+
+            // Движение персонажа
+            GetComponent<Transform>().position += movementDirection * speed * Time.deltaTime;
+
+            // Поворот персонажа в направлении движения
+            Transform characterTransform = GetComponent<Transform>();
+            Quaternion targetRotation = Quaternion.LookRotation(movementDirection);
+            characterTransform.rotation = Quaternion.Lerp(characterTransform.rotation, targetRotation, Time.deltaTime * 10); // Интерполяция для плавности
+
+
+            // Включение анимации движения
+            _animator.SetBool("isMoving", true);
         }
         else
         {
-            
+            // Выключение анимации движения
+            _animator.SetBool("isMoving", false);    
         }
-           
-       
     }
 }
