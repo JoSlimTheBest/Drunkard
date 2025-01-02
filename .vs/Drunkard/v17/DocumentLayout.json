@@ -3,8 +3,28 @@
   "WorkspaceRootPath": "C:\\GitRepositor\\Drunkard\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|c:\\gitrepositor\\drunkard\\assets\\preventrootmotion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:assets\\preventrootmotion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{2F38F2A0-C96D-D31C-83F4-41E7B8E31291}|Assembly-CSharp.csproj|c:\\gitrepositor\\drunkard\\assets\\scripts\\carddamage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2F38F2A0-C96D-D31C-83F4-41E7B8E31291}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\carddamage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2F38F2A0-C96D-D31C-83F4-41E7B8E31291}|Assembly-CSharp.csproj|c:\\gitrepositor\\drunkard\\assets\\scripts\\card.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2F38F2A0-C96D-D31C-83F4-41E7B8E31291}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\card.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2F38F2A0-C96D-D31C-83F4-41E7B8E31291}|Assembly-CSharp.csproj|c:\\gitrepositor\\drunkard\\assets\\scripts\\countcardindeck.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2F38F2A0-C96D-D31C-83F4-41E7B8E31291}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\countcardindeck.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2F38F2A0-C96D-D31C-83F4-41E7B8E31291}|Assembly-CSharp.csproj|C:\\GitRepositor\\Drunkard\\assets\\scripts\\usualdeck.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2F38F2A0-C96D-D31C-83F4-41E7B8E31291}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\usualdeck.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2F38F2A0-C96D-D31C-83F4-41E7B8E31291}|Assembly-CSharp.csproj|C:\\GitRepositor\\Drunkard\\assets\\scripts\\health.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2F38F2A0-C96D-D31C-83F4-41E7B8E31291}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\health.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\GitRepositor\\Drunkard\\Assets\\PreventRootMotion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\PreventRootMotion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{2F38F2A0-C96D-D31C-83F4-41E7B8E31291}|Assembly-CSharp.csproj|C:\\GitRepositor\\Drunkard\\assets\\scripts\\movementscript\\characterinputcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -18,24 +38,85 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Card.cs",
+              "DocumentMoniker": "C:\\GitRepositor\\Drunkard\\Assets\\Scripts\\Card.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Card.cs",
+              "ToolTip": "C:\\GitRepositor\\Drunkard\\Assets\\Scripts\\Card.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Card.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-02T13:07:44.3Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "CardDamage.cs",
+              "DocumentMoniker": "C:\\GitRepositor\\Drunkard\\Assets\\Scripts\\CardDamage.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\CardDamage.cs",
+              "ToolTip": "C:\\GitRepositor\\Drunkard\\Assets\\Scripts\\CardDamage.cs",
+              "RelativeToolTip": "Assets\\Scripts\\CardDamage.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAbAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-02T12:53:44.401Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "CountCardInDeck.cs",
+              "DocumentMoniker": "C:\\GitRepositor\\Drunkard\\Assets\\Scripts\\CountCardInDeck.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\CountCardInDeck.cs",
+              "ToolTip": "C:\\GitRepositor\\Drunkard\\Assets\\Scripts\\CountCardInDeck.cs",
+              "RelativeToolTip": "Assets\\Scripts\\CountCardInDeck.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAABxAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-02T12:49:15.82Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "UsualDeck.cs",
+              "DocumentMoniker": "C:\\GitRepositor\\Drunkard\\Assets\\Scripts\\UsualDeck.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\UsualDeck.cs",
+              "ToolTip": "C:\\GitRepositor\\Drunkard\\Assets\\Scripts\\UsualDeck.cs",
+              "RelativeToolTip": "Assets\\Scripts\\UsualDeck.cs",
+              "ViewState": "AgIAAAcAAAAAAAAAAAAIwBMAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-02T04:56:01.492Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Health.cs",
+              "DocumentMoniker": "C:\\GitRepositor\\Drunkard\\Assets\\Scripts\\Health.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Health.cs",
+              "ToolTip": "C:\\GitRepositor\\Drunkard\\Assets\\Scripts\\Health.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Health.cs",
+              "ViewState": "AgIAAB0AAAAAAAAAAAAQwDIAAAAqAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-02T02:10:32.202Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
               "Title": "PreventRootMotion.cs",
               "DocumentMoniker": "C:\\GitRepositor\\Drunkard\\Assets\\PreventRootMotion.cs",
               "RelativeDocumentMoniker": "Assets\\PreventRootMotion.cs",
               "ToolTip": "C:\\GitRepositor\\Drunkard\\Assets\\PreventRootMotion.cs",
               "RelativeToolTip": "Assets\\PreventRootMotion.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-24T19:36:09.298Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-24T19:36:09.298Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 6,
               "Title": "CharacterInputController.cs",
               "DocumentMoniker": "C:\\GitRepositor\\Drunkard\\Assets\\Scripts\\MovementScript\\CharacterInputController.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\MovementScript\\CharacterInputController.cs",
